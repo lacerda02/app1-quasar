@@ -9,7 +9,7 @@
        filled
        bg-color="white"
 
-       placeholder="Add atividade"
+       placeholder="Adicionar tarefa"
       dense >
 
 
@@ -77,7 +77,7 @@
       />
 
     <div class="text-h6 text-primary text-center">
-      Sem atividade
+      Sem tarefa
     </div>
     </div>
   </q-page>
@@ -94,7 +94,7 @@ export default {
     deleteTask(index) {
       this.$q.dialog({
         title: 'Confirm',
-        message: 'Apagar atividade?',
+        message: 'Apagar tarefa?',
         cancel: true,
         persistent: true
       }).onOk(() => {
