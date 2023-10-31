@@ -12,8 +12,8 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/App.vue') }, // Rota principal
       { path: 'ajuda', component: () => import('pages/Ajuda.vue') },
-      { path: 'helpdesk', component: () => import('pages/Helpdesk.vue') },
-      { path: 'form-helpdesk', component: () => import('pages/Form-Helpdesk.vue') },
+      { path: 'helpdesk', component: () => import('pages/helpdesk.vue') },
+      { path: 'form-helpdesk', component: () => import('pages/form-helpdesk.vue') },
       { path: 'galeria', component: () => import('pages/Galeria.vue') }
     ]
   },
