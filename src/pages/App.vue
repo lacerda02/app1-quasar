@@ -77,7 +77,7 @@
       />
 
     <div class="text-h6 text-primary text-center">
-      em atividade
+      Sem atividade
     </div>
     </div>
   </q-page>
